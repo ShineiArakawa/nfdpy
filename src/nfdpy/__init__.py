@@ -30,8 +30,9 @@ except importlib.metadata.PackageNotFoundError:
 # ----------------------------------------------------------------------------
 # Import modules
 
-from .binding import open_file_dialog
+from .binding import open_file_dialog, open_multi_file_dialog
 
 __all__ = [
     "open_file_dialog",
+    "open_multi_file_dialog",
 ]

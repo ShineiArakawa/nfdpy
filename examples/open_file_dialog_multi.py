@@ -2,7 +2,7 @@ import nfdpy
 
 
 def main():
-    selected = nfdpy.open_file_dialog(
+    selected = nfdpy.open_multi_file_dialog(
         filters={
             "C++ files": "cpp,hpp",
             "Python files": "py",

@@ -16,7 +16,7 @@ find_package(pybind11 REQUIRED)
 
 pybind11_add_module(
     ${NFDPY_MODULE_NAME}
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/nfdpy/binding.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/binding/binding.cpp
 )
 
 target_link_libraries(
@@ -25,4 +25,4 @@ target_link_libraries(
     nfd
 )
 
-install(TARGETS ${NFDPY_MODULE_NAME} LIBRARY DESTINATION ${SKBUILD_PROJECT_NAME})
+install(TARGETS ${NFDPY_MODULE_NAME} LIBRARY DESTINATION ${PROJECT_NAME})

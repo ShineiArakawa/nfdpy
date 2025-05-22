@@ -7,6 +7,16 @@ name = "nfdpy"
 version = "0.1.1"
 description = "A Python bindings for 'nativefiledialog-extended' library"
 readme = "README.md"
+license = { file = "LICENSE" }
 authors = [{ name = "Shinei Arakawa", email = "arakawashinei1115@gmail.com" }]
-requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
 dependencies = ["pybind11>=2.13.6"]
+requires-python = ">=3.10"

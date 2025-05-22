@@ -1,6 +1,6 @@
 # nfdpy: A Python Binding for nativefiledialog-extended
 
-This repository provides a Python binding for the **nativefiledialog-extended** library, which is a awesome library for creating native file dialogs in a cross-platform way, developped by [Bernard Teo](https://github.com/btzy).
+This repository provides a Python binding for the [nativefiledialog-extended](https://github.com/btzy/nativefiledialog-extended) library, which is a awesome library for creating native file dialogs in a cross-platform way, developped by [Bernard Teo](https://github.com/btzy).
 
 ## Installation
 
@@ -24,3 +24,6 @@ selected = nfdpy.open_file_dialog(
 
 print("Selected file:", selected)
 ```
+
+## License
+See [LICENSE](/LICENSE).
